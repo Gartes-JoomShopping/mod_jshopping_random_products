@@ -24,6 +24,12 @@
     <config>
         <fields name="params">
             <fieldset name="basic">  
+                <fieldset addfieldpath="/libraries/GNZ11/Extensions/Fields" />
+                <field name="__v"
+                	type="version"
+                	path_xml="/modules/mod_jshopping_random_products"
+                	class="__v"
+                	filter="raw" />
                 <field
                     name="count_products"
                     type="text"
